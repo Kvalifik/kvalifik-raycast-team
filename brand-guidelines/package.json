@@ -5,7 +5,7 @@
   "owner": "kvalifik",
   "description": "The Kvalifik brand's colors, logos, and other assets quickly available",
   "icon": "icon.png",
-  "author": "thomas",
+  "author": "villads-valur",
   "categories": [
     "Design Tools"
   ],
@@ -13,7 +13,7 @@
   "commands": [
     {
       "name": "open-brand-guidelines",
-      "title": "Open Brand Guidelines",
+      "title": "Kvalifik Brand Guidelines",
       "description": "Show Kvalifiks brand's colors, logos, and other assets.",
       "mode": "view"
     }
