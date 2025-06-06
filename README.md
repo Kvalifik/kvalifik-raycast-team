@@ -1,15 +1,39 @@
-# Private Extension Store
+🛠 Raycast Team Extensions — Kvalifik
+Welcome to the private extension store of Kvalifik. This is where we collaborate on internal Raycast extensions to streamline our workflows, automate the boring stuff, and build tools that make our team faster and happier.
 
-Welcome to the private extension store of kvalifik. This is a place where you can collaborate on your extensions with your teammates.
+🚀 Getting Started
+Clone the repo:
 
-![Extension Store](https://raw.githubusercontent.com/raycast/extensions/main/images/header.png)
+```bash
+git clone git@github.com:kvalifik/raycast-team-extensions.git
 
-## Getting Started
+cd raycast-team-extensions
 
-1. Visit our [documentation](https://developers.raycast.com) to get up to speed with our API.
-2. Invite your team members with the Manage Organization command in Raycast to collaborate on extensions.
-3. Visit and share your [team's store on the web](https://raycast.com/kvalifik).
+```
 
----
+In Raycast, go to Extensions → Import Extension and select the folder you want to load.
 
-Join our [Slack community](https://raycast.com/community) to send feedback, debug nasty bugs or simply get to know like-minded folks.
+Check for a README.md inside each extension folder for additional setup (e.g. API keys, .env files).
+
+📚 Resources
+Raycast Developer Docs
+
+Our team's extension store on the web
+
+Join the Raycast Slack community
+
+👯‍♂️ Team Collaboration
+Use the Manage Organization command in Raycast to invite team members and collaborate on extensions.
+
+Keep extensions modular and documented for easy onboarding.
+
+If you add something new, open a PR and request feedback before merging.
+
+✅ Conventions & Guidelines
+Store each extension in its own folder
+
+Avoid hardcoding secrets — use .env and .gitignore them
+
+Keep UI clean and commands descriptive
+
+Prefer clarity over cleverness
